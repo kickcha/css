@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <script
+    src="https://kit.fontawesome.com/3130e06a9f.js"
+    crossorigin="anonymous"
+  ></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid 실습</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="grid.css" />
+  </head>
+  <body>
+    <!-- 아래에 container와 item들을 만들어주세요 -->
+    <div class="container">
+      <section class="item">피곤한 호랑이처럼</section>
+      <!--header-->
+
+      <!--area2-->
+      <section class="item">
+        <div class="all" style="display: flex;">
+        <div class="feed">
+          <div class="post">
+            <div class="post-header">
+              <div class="user-profile-picture">
+                <img
+                class="id_img"
+                src="https://item.kakaocdn.net/do/05fb012c7a25c122c698cbe12e672acd4022de826f725e10df604bf1b9725cfd"
+                alt="내 프로필"
+              />
+              </div>
+              <div class="between">
+              <div class="user-info">
+                <a href="#" class="user-name">likepobby_dongguk</a>
+                <span class="more_details">
+                  <i class="fa-solid fa-ellipsis"></i>
+                </span>
+                <span class="post-location">동국대학교</span>
+              </div>
+              </div>
+              <div class="post-options"></div>
+            </div>
+            <div class="post-media">
+              <img
+              src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjEwMjlfMjA2%2FMDAxNjY2OTc4NTAxMDUx.3gxpb6bMt8xLO0yMWgIG2RCHx6TnBoFlPMRCZH_M8tcg.91Dew5gDWJ5U3aUIBN0Ro6vkCHywzT7rAkr89HLl5cwg.JPEG.soohyune2e%2Foutput_787332492.jpg&type=sc960_832"
+              alt="피드 사진"
+            />
+            </div>
+            <div class="post-actions">
+              <div class="likes"></div>
+              <i class="fa-solid fa-heart"></i>
+              <div class="comments"></div>
+              <i class="fa-regular fa-comment"></i>
+              <div class="share"></div>
+              <i class="fa-regular fa-paper-plane"></i>
+              <div class="save"></div>
+              <i class="fa-regular fa-bookmark"></i>
+            </div>
+              <div class="feed_like_box">
+                <div class="feed_like_picture">
+                  <img
+                    class="feed_like_peolpe"
+                    src="https://img.segye.com/content/image/2021/07/29/20210729513138.jpg"
+                    alt="크롱"
+                  />
+                </div>
+                <div class="feed_like">kickcha._님 외 123명이 좋아합니다.</div>
+              </div>
+              <div class="comments2">5월 17</div>
+          </div>
+        </div>      
+      </section>
+    
+
+      <!--area3-->
+      <section class="item" style="display: flex;">
+        <div id="left-grid" style="flex: 1;">
+          <table >
+            <th bgcolor="#FFFFFF" width="130"></th>
+            <th bgcolor="#FFFFFF" width="130">어려웠던 것</th>
+            <tr bgcolor="#FFFFFF">
+                <td>JS</td>
+                <td>화살표 함수</td>
+            </tr>
+            <tr bgcolor="#FFFFFF">
+                <td>CSS</td>
+                <td>grid 속 grid</td>
+            </tr>
+          </table>
+        </div>
+        <div id="right-grid" style="flex: 1;">
+          <h1>이번 과제를 하면서 궁금한 점</h1>
+            <li>gap을 사용하여 아이템 사이 간격을 조정하는 법이 궁금합니다!</li>
+            <li>자바스크립트 윤년 계산 부분에 undefined가 뜨는 이유가 궁금합니다! 검색해봤을 땐 이걸 없애려면 건드려야 하는 부분이 많아서,, 포기했거든요,,</li>
+        </div>
+      </section>
+
+
+      <!--area4-->
+      <section class="item"><h2>
+        <span>t</span>
+        <span>i</span>
+        <span>r</span>
+        <span>e</span>
+        <span>d</span>
+        <span>-</span>
+        <span>t</span>
+        <span>i</span>
+        <span>g</span>
+        <span>e</span>
+        <span>r</span>
+        
+      </h2></section>
+    </div>
+  </body>
+</html>
