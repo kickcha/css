@@ -27,7 +27,7 @@ body {
 
 
 
-/* 아래에 item css style을 지정해주세요. */
+/* 아래에 item css style을 지정해주세요. ----------------------------*/
 
 .item{
     border: 1px solid white;
@@ -57,7 +57,7 @@ body {
   font-family: "Ubuntu", sans-serif;
   background-color: black;
 }
-
+/* 아래에 item css style을 지정해주세요. ----------------------------*/
 .all {
   display: flex;
   justify-content: center;
@@ -135,10 +135,19 @@ body {
   }
   
   
-  .post-media img{
+  /* .post-media img{
     width: 298.75px;
     height: 500px;
     padding: 10px;
+  } */
+
+  .post-media {
+    width: 300px;
+    height: 450px;
+    background-image: url(./images/pobby.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
   
   .post-actions {
